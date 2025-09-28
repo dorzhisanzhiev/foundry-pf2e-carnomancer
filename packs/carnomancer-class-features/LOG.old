@@ -1,0 +1,8 @@
+2025/09/28-03:00:18.940 4fdc Recovering log #196
+2025/09/28-03:00:18.966 4fdc Delete type=0 #196
+2025/09/28-03:00:18.967 4fdc Delete type=3 #194
+2025/09/28-03:31:20.947 4600 Level-0 table #201: started
+2025/09/28-03:31:20.947 4600 Level-0 table #201: 0 bytes OK
+2025/09/28-03:31:20.953 4600 Delete type=0 #199
+2025/09/28-03:31:20.965 4600 Manual compaction at level-0 from '!folders!XQCWAEMB5tkx0yMQ' @ 72057594037927935 : 1 .. '!items!zzRffXxpwY60R2r8' @ 0 : 0; will stop at (end)
+2025/09/28-03:31:20.965 4600 Manual compaction at level-1 from '!folders!XQCWAEMB5tkx0yMQ' @ 72057594037927935 : 1 .. '!items!zzRffXxpwY60R2r8' @ 0 : 0; will stop at (end)

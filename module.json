@@ -1,0 +1,192 @@
+{
+  "id": "carnomancer",
+  "title": "Carnomancer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "carnomancer-class",
+      "label": "Carnomancer - Class",
+      "path": "packs/carnomancer-class",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-class-features",
+      "label": "Carnomancer - Class Features",
+      "path": "packs/carnomancer-class-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-feats",
+      "label": "Carnomancer - Feats",
+      "path": "packs/carnomancer-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-actions",
+      "label": "Carnomancer - Actions",
+      "path": "packs/carnomancer-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-creatures",
+      "label": "Carnomancer - Creatures",
+      "path": "packs/carnomancer-creatures",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-effects",
+      "label": "Carnomancer - Effects",
+      "path": "packs/carnomancer-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-equipment",
+      "label": "Carnomancer - Equipment",
+      "path": "packs/carnomancer-equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-macros",
+      "label": "Carnomancer - Macros",
+      "path": "packs/carnomancer-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-spells",
+      "label": "Carnomancer - Spells",
+      "path": "packs/carnomancer-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-archetype-feats",
+      "label": "Carnomancer - Archetype Feats",
+      "path": "packs/carnomancer-archetype-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "carnomancer-journal",
+      "label": "Carnomancer - Journal",
+      "path": "packs/carnomancer-journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Carnomancer",
+      "sorting": "a",
+      "color": "#ae0000",
+      "packs": [
+        "carnomancer-actions",
+        "carnomancer-archetype-feats",
+        "carnomancer-class",
+        "carnomancer-class-features",
+        "carnomancer-creatures",
+        "carnomancer-effects",
+        "carnomancer-equipment",
+        "carnomancer-feats",
+        "carnomancer-journal",
+        "carnomancer-spells",
+        "carnomancer-macros"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "carnomancer": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "carnomancer": {
+            "label": "Carnomancer",
+            "description": "Feats and features of the carnomancer class."
+          }
+        },
+        "spellTraits": {
+          "carnomancer-spells": {
+            "label": "Carnomancer",
+            "description": "Spells of the carnomancer class."
+          }
+        },
+        "equipmentTraits": {
+          "carnomancer-equipment": {
+            "label": "Carnomancer",
+            "description": "Equipment of the carnomancer class."
+          }
+        }
+
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Dorji Sanjiev",
+      "discord": "Pyrurge",
+      "flags": {}
+    },
+    {
+      "name": "Natali Cer",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/dorzhisanzhiev/foundry-pf2e-carnomancer",
+  "manifest": "https://raw.githubusercontent.com/dorzhisanzhiev/foundry-pf2e-carnomancer/master/module.json",
+  "download": "https://github.com/dorzhisanzhiev/foundry-pf2e-carnomancer/archive/refs/heads/main.zip"
+}
